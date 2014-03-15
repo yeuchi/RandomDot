@@ -1,0 +1,33 @@
+h1, p {
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    float: left;
+    display: inline;
+}
+
+.divContent {
+    display: block;
+    position: relative;
+    float: left;
+    height:300px;
+}
+
+.divCanvas2, .divCanvas3,
+.divCanvas4{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+img {
+    visibility: hidden;
+}
+
+.clear {
+    clear: both;
+}
